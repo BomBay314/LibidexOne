@@ -9,11 +9,11 @@ const COST = 2490;
 
 // The fields below should be redirected back to the landing
 // Where to redirect if this is not a post request with a form
-$urlForNotPost = 'index.php';
+$urlForNotPost = 'index.html';
 // Where to redirect if fields for name or phone number are not filled
-$urlForEmptyRequiredFields = 'index.php';
+$urlForEmptyRequiredFields = 'index.html';
 // Where to redirect if the server replied with something incomprehensible
-$urlForNotJson = 'index.php';
+$urlForNotJson = 'index.html';
 // Where to redirect if everything is OK
 $urlSuccess = 'success.php';
 
